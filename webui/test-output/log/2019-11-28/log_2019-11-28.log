@@ -1,0 +1,2 @@
+[2019-11-28 18:12:22,505] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-28 18:12:27,740] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.baidu.com网址!

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map><!-- 文档管理系统元素 -->
+
+    <page pageName="baidu">
+        <position type="id" timeOut="3" value="kw">输入框</position>
+        <position type="xpath" timeOut="3" value="//*[@id='su']">百度一下</position>
+    </page>
+    <page pageName="golenEvents">
+        <position type="xpath" timeOut="3" value="/html/body/div[1]/div/div[1]/ul/li[1]/a">首页</position>
+        <position type="xpath" timeOut="3" value="/html/body/div[1]/div/div[1]/ul/li[3]/a">选课中心</position>
+        <position type="xpath" timeOut="3" value="/html/body/div[1]/div/div[1]/ul/li[4]/a">学习平台</position>
+        <position type="xpath" timeOut="3" value="/html/body/div[1]/div/div[1]/ul/li[5]/a">研究中心</position>
+        <position type="xpath" timeOut="3" value="/html/body/div[1]/div/div[1]/ul/li[6]/a">高顿活动</position>
+        <position type="xpath" timeOut="3" value="/html/body/div[1]/div/div[1]/ul/li[7]/a">财税资讯</position>
+        <position type="xpath" timeOut="3" value="/html/body/div[1]/div/div[1]/ul/li[8]/a">关于高顿</position>
+    </page>
+    <page pageName="loginPage"><!-- 登录页面 -->
+        <!--position lists -->
+        <position type="id" timeOut="3" value="UserId">用户名输入框</position>
+        <position type="id" timeOut="3" value="Password">密码输入框</position>
+        <position type="xpath" timeOut="3" value="//button[text()='登录']">登录按钮</position>
+        <position type="id" timeOut="3" value="errorDiv">错误提示</position>
+    </page>
+
+    <page pageName="mainPage"><!-- 主页面 -->
+        <!--position lists -->
+        <position type="xpath" timeOut="8" value="//*[@id='left']/ul[1]/li[3]">文档登记</position>
+        <position type="xpath" timeOut="10" value="//*[@id='left']/ul[1]/li[4]">文档查询</position>
+        <position type="xpath" timeOut="30" value="//*[@id='left']/ul[2]/li[4]">会议资料</position>
+    </page>
+
+    <page pageName="docQueryPage"><!-- 查询页面 -->
+        <position type="" timeOut="5" value="fra1d34c791-9a30-4438-a2e0-a282f3be0594">iframe1</position>
+        <position type="xpath" timeOut="3" value="//*[@id='newnav']/tbody/tr[1]/td/a">科研资料平台</position>
+    </page>
+
+</map>

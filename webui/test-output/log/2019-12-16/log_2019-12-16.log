@@ -1,0 +1,956 @@
+[2019-12-16 10:27:04,382] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 10:27:09,982] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 10:27:10,976] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 10:27:11,028] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:11,301] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 10:27:11,321] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:11,446] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 10:27:11,467] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:11,582] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 10:27:11,599] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:27:12,668] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:12,770] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:27:12,789] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:12,998] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:27:13,019] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,100] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:27:13,112] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,302] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 10:27:13,314] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,383] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:27:13,402] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,499] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:27:13,597] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,661] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,690] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:27:13,701] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,750] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:13,836] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:27:13,847] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:27:13,870] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,018] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:27:14,159] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,333] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:27:14,358] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,408] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:27:14,423] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,473] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:27:14,491] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,677] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 10:27:14,691] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,757] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:27:14,771] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,852] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:27:14,871] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,943] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:14,982] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:27:14,994] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:15,037] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:15,110] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:27:15,122] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:27:15,143] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:15,271] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:27:15,324] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:15,580] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:27:15,605] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:15,672] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:27:15,688] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:15,745] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:27:15,759] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:15,921] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为负数]
+[2019-12-16 10:27:15,938] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,015] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:-3]
+[2019-12-16 10:27:16,028] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,093] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:27:16,111] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,174] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,211] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:27:16,223] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,271] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,361] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:27:16,371] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:27:16,398] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,526] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:27:16,563] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,786] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:27:16,808] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,900] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:27:16,912] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:16,975] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:27:16,989] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:17,155] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为字母]
+[2019-12-16 10:27:17,167] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:17,259] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:dsddss]
+[2019-12-16 10:27:17,269] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:17,328] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:27:17,343] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:17,399] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:17,444] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:27:17,459] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:17,497] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:27:17,567] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:27:56,899] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 10:28:02,384] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 10:28:03,137] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 10:28:03,187] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:03,612] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 10:28:03,637] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:03,820] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 10:28:03,842] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:03,985] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 10:28:04,005] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:28:05,146] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:05,491] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:28:05,526] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:05,713] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:28:05,736] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:05,833] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:28:05,846] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:06,006] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 10:28:06,018] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:06,097] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:28:06,118] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:06,224] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:28:06,311] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:06,381] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:06,416] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:28:06,428] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:06,480] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:06,565] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:28:08,577] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:28:08,589] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:08,703] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:28:08,739] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:08,825] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:28:08,850] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:08,921] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:28:08,937] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:09,521] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符]
+[2019-12-16 10:28:09,535] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:09,605] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:28:09,622] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:09,687] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:28:09,705] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:39,817] INFO  com.gevil.excutor.UIExcutor findElement ByClassName el-message__content failed! NoSuchElement !
+[2019-12-16 10:28:39,831] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:39,869] INFO  com.gevil.excutor.BasePageX 添加失败:不能超过40个字符
+[2019-12-16 10:28:39,887] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:39,929] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:40,011] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:28:42,035] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:28:42,060] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,146] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:28:42,191] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,281] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:28:42,306] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,397] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:28:42,412] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,579] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 10:28:42,590] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,657] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:28:42,675] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,766] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:28:42,899] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,954] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:42,991] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:28:43,002] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:43,043] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:43,114] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:28:45,126] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:28:45,154] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,285] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:28:45,315] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,447] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:28:45,490] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,548] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:28:45,587] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,680] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value: ]
+[2019-12-16 10:28:45,692] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,757] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:28:45,770] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,837] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:28:45,857] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,949] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:45,982] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:28:45,993] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:46,030] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:46,084] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:28:48,109] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:28:48,125] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,220] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:28:48,240] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,308] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:28:48,327] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,389] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:28:48,411] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,589] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为负数]
+[2019-12-16 10:28:48,620] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,710] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:-3]
+[2019-12-16 10:28:48,727] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,792] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:28:48,812] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,871] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,911] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:28:48,928] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:48,970] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:49,043] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:28:51,082] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:28:51,093] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,186] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:28:51,203] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,254] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:28:51,273] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,348] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:28:51,367] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,507] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为零]
+[2019-12-16 10:28:51,522] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,591] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:0]
+[2019-12-16 10:28:51,602] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,671] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:28:51,683] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,765] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,808] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 10:28:51,821] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,873] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:51,951] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:28:53,983] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:28:54,000] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,104] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:28:54,124] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,188] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:28:54,206] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,277] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:28:54,297] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,457] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为字母]
+[2019-12-16 10:28:54,473] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,570] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:dsddss]
+[2019-12-16 10:28:54,580] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,640] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:28:54,653] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,699] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,730] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:28:54,741] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,790] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:28:54,875] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:29:50,103] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 10:29:55,119] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 10:29:55,915] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 10:29:55,957] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:56,234] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 10:29:56,254] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:56,372] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 10:29:56,389] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:56,498] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 10:29:56,514] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:29:57,576] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:57,871] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:29:57,896] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:57,987] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:29:58,012] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,091] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:29:58,106] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,288] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 10:29:58,300] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,381] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:29:58,401] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,490] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:29:58,582] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,650] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,679] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:29:58,688] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,733] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:29:58,817] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:30:00,831] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:30:00,849] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:00,970] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:30:00,992] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,079] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:30:01,103] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,186] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:30:01,207] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,488] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 10:30:01,515] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,613] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:30:01,636] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,742] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:30:01,778] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,862] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,906] INFO  com.gevil.excutor.BasePageX 添加失败:
+[2019-12-16 10:30:01,922] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:01,989] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:02,112] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:30:04,133] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:30:04,156] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,249] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:30:04,266] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,319] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:30:04,335] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,398] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:30:04,415] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,504] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value: ]
+[2019-12-16 10:30:04,528] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,614] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:30:04,628] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,701] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:30:04,721] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,787] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,832] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:30:04,847] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,890] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:04,949] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:30:06,972] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:30:06,989] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,075] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:30:07,091] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,147] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:30:07,160] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,209] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:30:07,226] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,406] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为负数]
+[2019-12-16 10:30:07,420] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,491] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:-3]
+[2019-12-16 10:30:07,503] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,575] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:30:07,592] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,662] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,696] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:30:07,706] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,744] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:07,808] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:30:09,819] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:30:09,838] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:09,902] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:30:09,938] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,039] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:30:10,054] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,126] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:30:10,144] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,286] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为零]
+[2019-12-16 10:30:10,301] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,361] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:0]
+[2019-12-16 10:30:10,375] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,434] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:30:10,448] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,504] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,547] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 10:30:10,560] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,621] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:10,700] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:30:12,717] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:30:12,742] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:12,836] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:30:12,850] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:12,906] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:30:12,922] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:12,976] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:30:13,018] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:13,495] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符]
+[2019-12-16 10:30:13,510] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:13,578] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 10:30:13,591] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:13,656] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:30:13,669] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:13,726] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:13,755] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 10:30:13,765] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:13,803] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:13,856] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 10:30:15,878] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 10:30:15,894] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:15,983] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 10:30:16,001] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,065] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 10:30:16,080] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,150] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 10:30:16,167] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,342] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为字母]
+[2019-12-16 10:30:16,357] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,450] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:dsddss]
+[2019-12-16 10:30:16,461] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,514] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 10:30:16,528] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,579] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,610] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 10:30:16,619] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,658] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 10:30:16,732] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 11:41:11,767] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 11:41:16,827] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 11:41:18,172] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 11:41:18,250] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:18,722] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 11:41:18,748] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:18,946] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 11:41:18,971] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:19,100] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 11:41:19,120] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 11:41:20,267] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:20,498] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 11:41:20,541] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:20,652] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 11:41:20,683] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:20,772] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 11:41:20,785] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:20,963] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 11:41:20,980] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:21,072] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 11:41:21,098] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:21,204] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 11:41:21,298] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:21,380] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:21,417] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 11:41:21,429] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:21,482] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:21,568] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 11:41:23,580] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 11:41:23,595] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:23,741] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 11:41:23,762] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:23,842] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 11:41:23,863] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:23,939] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 11:41:23,956] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:24,164] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 11:41:24,177] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:24,254] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 11:41:24,286] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:24,379] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 11:41:24,398] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:24,460] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:24,493] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 11:41:24,504] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:24,551] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:24,626] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 11:41:26,637] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 11:41:26,666] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:26,849] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 11:41:26,869] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:26,984] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 11:41:27,005] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,069] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 11:41:27,085] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,199] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value: ]
+[2019-12-16 11:41:27,215] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,302] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 11:41:27,314] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,405] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 11:41:27,422] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,499] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,544] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 11:41:27,559] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,604] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:27,686] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 11:41:29,695] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 11:41:29,710] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:29,780] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 11:41:29,831] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:29,913] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 11:41:29,939] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,013] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 11:41:30,035] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,236] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为负数]
+[2019-12-16 11:41:30,256] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,330] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:-3]
+[2019-12-16 11:41:30,344] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,426] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 11:41:30,444] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,528] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,568] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 11:41:30,579] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,627] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:30,716] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 11:41:32,727] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 11:41:32,744] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:32,835] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 11:41:32,853] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:32,914] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 11:41:32,933] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,001] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 11:41:33,029] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,186] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为零]
+[2019-12-16 11:41:33,203] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,286] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:0]
+[2019-12-16 11:41:33,305] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,369] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 11:41:33,385] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,440] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,490] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 11:41:33,502] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,544] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:33,618] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 11:41:35,658] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 11:41:35,673] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:35,742] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 11:41:35,783] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:35,854] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 11:41:35,874] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:35,942] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 11:41:35,957] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:36,487] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符]
+[2019-12-16 11:41:36,496] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:36,569] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 11:41:36,579] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:36,641] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 11:41:36,656] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:36,721] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:36,754] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 11:41:36,764] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:36,805] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:36,862] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 11:41:38,884] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 11:41:38,909] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,005] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 11:41:39,020] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,102] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 11:41:39,120] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,198] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 11:41:39,216] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,371] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为字母]
+[2019-12-16 11:41:39,404] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,516] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:dsddss]
+[2019-12-16 11:41:39,529] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,599] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 11:41:39,615] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,666] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,695] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 11:41:39,705] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,745] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 11:41:39,816] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:55:55,644] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 17:56:00,680] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 17:56:01,773] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 17:56:01,845] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:02,356] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 17:56:02,382] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:02,549] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 17:56:02,573] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:02,705] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 17:56:02,726] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:03,861] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:04,182] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:04,214] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:04,464] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:56:04,505] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:04,672] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:56:04,715] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:04,834] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:56:04,848] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:05,090] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 17:56:05,102] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:05,194] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 17:56:05,216] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:05,350] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:56:05,504] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:07,820] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:07,836] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:07,907] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:56:07,968] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:08,105] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:56:08,144] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:08,220] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:56:08,240] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:08,341] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value: ]
+[2019-12-16 17:56:08,369] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:08,456] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 17:56:08,474] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:08,557] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:56:08,582] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:10,638] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:10,664] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:10,727] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:10,751] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:10,849] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:10,862] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:10,928] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:10,948] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:11,050] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:11,082] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:11,242] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:11,284] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:11,395] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:11,416] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:11,502] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:11,519] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:11,588] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:11,600] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:11,667] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:11,680] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:56:11,752] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:56:11,764] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:35,287] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 17:58:40,491] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 17:58:41,610] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 17:58:41,926] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:42,479] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 17:58:42,503] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:42,657] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 17:58:42,676] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:42,795] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 17:58:42,814] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:58:43,915] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:44,205] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:58:44,232] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:44,314] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:58:44,341] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:44,425] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:58:44,443] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:44,661] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 17:58:44,675] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:44,746] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 17:58:44,764] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:44,851] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:58:44,943] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:45,009] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:45,039] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 17:58:45,048] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:45,094] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:45,185] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:58:47,211] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:58:47,228] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:47,309] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:58:47,346] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:47,435] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:58:47,457] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:47,572] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:58:47,593] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:47,852] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 17:58:47,869] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:47,949] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 17:58:47,968] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:48,061] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:58:48,083] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:48,152] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:48,192] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 17:58:48,205] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:48,249] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:48,358] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:58:50,371] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:58:50,385] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:50,495] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:58:50,515] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:50,581] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:58:50,611] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:50,695] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:58:50,715] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:50,810] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value: ]
+[2019-12-16 17:58:50,828] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:50,904] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 17:58:50,915] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:50,981] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:58:50,996] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:51,063] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:51,100] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 17:58:51,115] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:51,166] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:51,245] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:58:53,269] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:58:53,285] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:53,377] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:58:53,421] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:53,503] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:58:53,520] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:53,575] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:58:53,590] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:53,756] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为负数]
+[2019-12-16 17:58:53,770] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:53,836] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:-3]
+[2019-12-16 17:58:53,849] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:53,920] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:58:53,938] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:54,003] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:54,041] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 17:58:54,054] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:54,110] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:54,169] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:58:56,193] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:58:56,216] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,280] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:58:56,322] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,390] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:58:56,407] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,473] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:58:56,494] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,646] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为零]
+[2019-12-16 17:58:56,664] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,756] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:0]
+[2019-12-16 17:58:56,767] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,832] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:58:56,850] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,916] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:56,965] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 17:58:56,981] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:57,034] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:57,096] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:58:59,125] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:58:59,135] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:59,235] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:58:59,251] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:59,303] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:58:59,319] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:59,380] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:58:59,396] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:58:59,958] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符]
+[2019-12-16 17:58:59,970] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:00,036] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 17:59:00,049] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:00,103] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:59:00,117] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:00,174] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:00,210] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 17:59:00,225] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:00,277] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:00,361] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:59:02,380] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:02,400] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:02,465] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 17:59:02,507] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:02,574] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 17:59:02,591] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:02,677] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 17:59:02,697] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:02,849] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为字母]
+[2019-12-16 17:59:02,867] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:02,965] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:dsddss]
+[2019-12-16 17:59:02,982] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:03,061] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 17:59:03,078] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:03,130] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:03,161] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 17:59:03,174] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:03,223] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:03,295] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 17:59:05,304] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:05,320] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:05,437] INFO  com.gevil.excutor.UIExcutor click元素编辑按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[6]/div/button[1]] success!
+[2019-12-16 17:59:05,461] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:05,591] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:05,622] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:05,737] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:05,752] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:05,819] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:05,830] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:05,887] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:05,898] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:05,965] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:05,981] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 17:59:06,036] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 17:59:06,046] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:05,087] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 18:02:10,083] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 18:02:11,008] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 18:02:11,058] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:11,389] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 18:02:11,407] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:11,523] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 18:02:11,540] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:11,625] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 18:02:11,640] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:12,708] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:13,091] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:02:13,132] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:13,227] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:02:13,250] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:13,342] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:02:13,359] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:13,540] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加题]
+[2019-12-16 18:02:13,556] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:13,629] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 18:02:13,651] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:13,750] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:02:13,852] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:15,988] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:16,016] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:16,103] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:02:16,124] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:16,186] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:02:16,203] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:16,266] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:02:16,286] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:16,489] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 18:02:16,501] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:16,565] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 18:02:16,576] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:16,639] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:02:16,654] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:18,714] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:18,734] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:18,826] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:18,841] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:18,909] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:18,928] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,004] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,027] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,100] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,116] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,186] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,214] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,302] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,316] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,381] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,394] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,465] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,476] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,541] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,555] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,621] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,633] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:02:19,706] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:02:19,718] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:02,182] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-12-16 18:03:07,276] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://t-hestia.gaodun.com/login网址!
+[2019-12-16 18:03:08,184] INFO  com.gevil.excutor.BasePageX 成功获取loginPage页面信息
+[2019-12-16 18:03:08,220] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:08,479] INFO  com.gevil.excutor.UIExcutor input输入：账户[xpath://*[@id='app']/div/div/div[2]/form/div[2]/div/div/input,value:gongqiangwei@gaodun.com]
+[2019-12-16 18:03:08,496] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:08,626] INFO  com.gevil.excutor.UIExcutor input输入：密码[xpath://*[@id='app']/div/div/div[2]/form/div[3]/div/div[1]/input,value:123456]
+[2019-12-16 18:03:08,643] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:08,750] INFO  com.gevil.excutor.UIExcutor click元素登录按钮[xpath://*[@id='app']/div/div/div[2]/form/div[4]/div/button] success!
+[2019-12-16 18:03:08,767] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:09,842] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:10,201] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:03:10,247] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:10,335] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:03:10,355] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:10,438] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:03:10,452] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:10,666] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加题]
+[2019-12-16 18:03:10,681] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:10,762] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 18:03:10,781] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:10,872] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:03:10,965] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:11,033] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:11,071] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 18:03:11,084] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:11,132] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:11,219] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 18:03:13,230] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:13,247] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:13,362] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:03:13,381] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:13,461] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:03:13,492] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:13,603] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:03:13,623] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:13,809] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：正常添加问题]
+[2019-12-16 18:03:13,825] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:13,899] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 18:03:13,926] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:14,013] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:03:14,048] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:14,141] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:14,175] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 18:03:14,187] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:14,231] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:14,293] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 18:03:16,312] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:16,338] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:16,405] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:03:16,442] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:16,496] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:03:16,515] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:16,572] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:03:16,587] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:16,689] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value: ]
+[2019-12-16 18:03:16,718] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:16,804] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 18:03:16,819] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:16,886] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:03:16,902] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:16,967] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:17,002] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 18:03:17,015] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:17,067] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:17,134] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 18:03:19,159] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:19,182] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,245] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:03:19,280] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,355] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:03:19,371] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,426] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:03:19,442] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,610] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为负数]
+[2019-12-16 18:03:19,622] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,693] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:-3]
+[2019-12-16 18:03:19,706] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,775] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:03:19,791] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,852] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,883] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 18:03:19,893] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:19,936] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:20,030] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 18:03:22,052] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:22,075] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,162] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:03:22,181] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,250] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:03:22,261] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,316] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:03:22,334] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,477] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为零]
+[2019-12-16 18:03:22,494] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,562] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:0]
+[2019-12-16 18:03:22,576] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,635] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:03:22,649] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,705] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,745] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 18:03:22,755] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,810] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:22,883] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 18:03:24,902] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:24,912] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,022] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:03:25,041] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,092] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:03:25,106] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,171] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:03:25,188] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,671] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符；回归测试：超长问题大于40个字符]
+[2019-12-16 18:03:25,681] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,755] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:1]
+[2019-12-16 18:03:25,768] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,824] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:03:25,837] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,889] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,921] INFO  com.gevil.excutor.BasePageX 添加失败:添加失败
+[2019-12-16 18:03:25,931] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:25,971] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:26,025] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 18:03:28,042] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:28,073] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,158] INFO  com.gevil.excutor.UIExcutor click元素新增按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[1]/button/span] success!
+[2019-12-16 18:03:28,179] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,237] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增问题内容
+[2019-12-16 18:03:28,256] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,319] INFO  com.gevil.excutor.UIExcutor 清除文本框:新增排序内容
+[2019-12-16 18:03:28,336] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,482] INFO  com.gevil.excutor.UIExcutor input输入：新增问题[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[1]/div/div[1]/input,value:回归测试：排序为字母]
+[2019-12-16 18:03:28,499] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,611] INFO  com.gevil.excutor.UIExcutor input输入：新增排序[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/form/div[2]/div/div/input,value:dsddss]
+[2019-12-16 18:03:28,626] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,716] INFO  com.gevil.excutor.UIExcutor click元素新增确定按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[2]] success!
+[2019-12-16 18:03:28,734] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,799] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,842] INFO  com.gevil.excutor.BasePageX 添加失败:排序输入不合法
+[2019-12-16 18:03:28,853] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,905] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:28,984] INFO  com.gevil.excutor.UIExcutor click元素新增取消按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[3]/div/div/div[3]/span/button[1]] success!
+[2019-12-16 18:03:31,002] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:31,023] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:31,166] INFO  com.gevil.excutor.UIExcutor click元素编辑按钮[xpath://*[@id='app']/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[6]/div/button[1]] success!
+[2019-12-16 18:03:31,193] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:31,354] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:31,371] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:31,457] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:31,471] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:31,544] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:31,554] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:31,613] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:31,623] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:31,682] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:31,692] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-12-16 18:03:31,768] INFO  com.gevil.excutor.BasePageX 成功获取indexPage页面信息
+[2019-12-16 18:03:31,778] INFO  com.gevil.excutor.UIExcutor 查找元素

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffe73670-7974-4cec-bd41-ca19b86af7ab" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webui" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Tool\maven_repository\maven_repository" />
+        <option name="mavenHome" value="D:/Tool/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Tool\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+        <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TbNwHdXmGg2bVjXomZ5s6pD3KD" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\personal\JavaCode\IdeaProjects\webui\src\main\resources" />
+      <recent name="D:\personal\JavaCode\IdeaProjects\webui\target\classes\com\gevil\xUtils" />
+      <recent name="D:\personal\JavaCode\IdeaProjects\webui\src\main\java\com\gevil\xUtils" />
+      <recent name="D:\personal\JavaCode\IdeaProjects\webui\src\main\java" />
+      <recent name="D:\personal\JavaCode\IdeaProjects\webui\src\main\java\com" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.hestia">
+    <configuration name="BaiduTest.MenuDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gevil.webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gevil.webTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gevil.webTest.BaiduTest" />
+      <option name="METHOD_NAME" value="MenuDemo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hestia (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gevil.webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gevil.webTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gevil.webTest.hestia" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hestia (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gevil.webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gevil.webTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gevil.webTest.hestia" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hestia" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gevil.webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gevil.webTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gevil.webTest.hestia" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hestia.addQuestion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gevil.webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gevil.webTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gevil.webTest.hestia" />
+      <option name="METHOD_NAME" value="addQuestion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.hestia" />
+        <item itemvalue="TestNG.hestia (2)" />
+        <item itemvalue="TestNG.hestia.addQuestion" />
+        <item itemvalue="TestNG.hestia (1)" />
+        <item itemvalue="TestNG.BaiduTest.MenuDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffe73670-7974-4cec-bd41-ca19b86af7ab" name="Default Changelist" comment="" />
+      <created>1573725071965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573725071965</updated>
+      <workItem from="1573725074059" duration="44000" />
+      <workItem from="1573725121617" duration="372000" />
+      <workItem from="1573786106262" duration="13376000" />
+      <workItem from="1574153083531" duration="1956000" />
+      <workItem from="1574315241854" duration="11711000" />
+      <workItem from="1574394502680" duration="3695000" />
+      <workItem from="1574655715970" duration="5918000" />
+      <workItem from="1574765434412" duration="3686000" />
+      <workItem from="1574826039166" duration="22168000" />
+      <workItem from="1574905618520" duration="14066000" />
+      <workItem from="1574931438540" duration="3489000" />
+      <workItem from="1575002958671" duration="2052000" />
+      <workItem from="1575014610117" duration="5270000" />
+      <workItem from="1575263720802" duration="7795000" />
+      <workItem from="1575342679664" duration="8796000" />
+      <workItem from="1575425595355" duration="10453000" />
+      <workItem from="1576133721151" duration="12734000" />
+      <workItem from="1576200342395" duration="24934000" />
+      <workItem from="1576463054966" duration="6389000" />
+      <workItem from="1576489547569" duration="1374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

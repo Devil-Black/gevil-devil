@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suit name="tempTestSuite">
+    <listeners>
+
+    </listeners>
+    <parameter name = "browserName" value = "chrome"/>
+    <parameter name = "url" value = "https://www.baidu.com"/>
+    <test name="Test">
+        <classes>
+            <class name="com.gevil.webTest.BaiduTest"/>
+        </classes>
+    </test>
+</suit>

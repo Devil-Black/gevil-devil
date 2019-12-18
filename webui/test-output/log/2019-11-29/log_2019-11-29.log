@@ -1,0 +1,50 @@
+[2019-11-29 12:49:45,955] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 12:49:51,092] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.baidu.com网址!
+[2019-11-29 13:00:41,872] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 13:00:46,728] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.baidu.com网址!
+[2019-11-29 19:01:27,514] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 19:01:32,497] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.baidu.com网址!
+[2019-11-29 19:01:34,152] INFO  com.gevil.excutor.BasePageX 成功获取baidu页面信息
+[2019-11-29 19:01:34,159] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:01:34,376] INFO  com.gevil.excutor.UIExcutor input输入：输入框[id:kw,value:java]
+[2019-11-29 19:01:34,376] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:01:37,578] INFO  com.gevil.excutor.UIExcutor findElement ByXpath//*[@id='su'']failed! NoSuchElement !
+[2019-11-29 19:04:13,053] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 19:04:18,176] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.baidu.com网址!
+[2019-11-29 19:04:18,807] INFO  com.gevil.excutor.BasePageX 成功获取baidu页面信息
+[2019-11-29 19:04:18,814] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:04:18,979] INFO  com.gevil.excutor.UIExcutor input输入：输入框[id:kw,value:java]
+[2019-11-29 19:04:18,979] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:04:19,194] INFO  com.gevil.excutor.UIExcutor click元素百度一下[xpath://*[@id='su']] success!
+[2019-11-29 19:15:31,741] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 19:15:36,874] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.goldenfinance.com.cn/home/events/index.html网址!
+[2019-11-29 19:15:38,861] INFO  com.gevil.excutor.BasePageX 成功获取baidu页面信息
+[2019-11-29 19:16:21,823] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 19:16:27,407] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.goldenfinance.com.cn/home/events/index.html网址!
+[2019-11-29 19:16:31,997] INFO  com.gevil.excutor.BasePageX 成功获取baidu页面信息
+[2019-11-29 19:16:43,669] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 19:16:48,872] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.goldenfinance.com.cn/home/events/index.html网址!
+[2019-11-29 19:16:50,837] INFO  com.gevil.excutor.BasePageX 成功获取golenEvents页面信息
+[2019-11-29 19:16:50,844] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:16:52,940] INFO  com.gevil.excutor.UIExcutor click元素首页[xpath:/html/body/div[1]/div/div[1]/ul/li[1]/a] success!
+[2019-11-29 19:16:52,940] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:16:55,124] INFO  com.gevil.excutor.UIExcutor click元素选课中心[xpath:/html/body/div[1]/div/div[1]/ul/li[2]/a] success!
+[2019-11-29 19:16:55,125] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:17:18,791] INFO  com.gevil.excutor.UIExcutor findElement ByXpath/html/body/div[1]/div/div[1]/ul/li[4]/afailed! NoSuchElement !
+[2019-11-29 19:18:03,346] INFO  com.gevil.Utils.BrowserUtil 读取执行xml配置chrome浏览器初始化
+[2019-11-29 19:18:08,716] INFO  com.gevil.Utils.BrowserUtil 打开浏览器，访问https://www.goldenfinance.com.cn/home/events/index.html网址!
+[2019-11-29 19:18:10,571] INFO  com.gevil.excutor.BasePageX 成功获取golenEvents页面信息
+[2019-11-29 19:18:10,579] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:18:12,794] INFO  com.gevil.excutor.UIExcutor click元素首页[xpath:/html/body/div[1]/div/div[1]/ul/li[1]/a] success!
+[2019-11-29 19:18:12,795] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:18:14,625] INFO  com.gevil.excutor.UIExcutor click元素选课中心[xpath:/html/body/div[1]/div/div[1]/ul/li[3]/a] success!
+[2019-11-29 19:18:14,625] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:18:15,721] INFO  com.gevil.excutor.UIExcutor click元素学习平台[xpath:/html/body/div[1]/div/div[1]/ul/li[4]/a] success!
+[2019-11-29 19:18:15,721] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:18:18,252] INFO  com.gevil.excutor.UIExcutor click元素研究中心[xpath:/html/body/div[1]/div/div[1]/ul/li[5]/a] success!
+[2019-11-29 19:18:18,252] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:18:19,293] INFO  com.gevil.excutor.UIExcutor click元素高顿活动[xpath:/html/body/div[1]/div/div[1]/ul/li[6]/a] success!
+[2019-11-29 19:18:19,293] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:18:19,483] INFO  com.gevil.excutor.UIExcutor click元素财税资讯[xpath:/html/body/div[1]/div/div[1]/ul/li[7]/a] success!
+[2019-11-29 19:18:19,484] INFO  com.gevil.excutor.UIExcutor 查找元素
+[2019-11-29 19:18:24,352] INFO  com.gevil.excutor.UIExcutor click元素关于高顿[xpath:/html/body/div[1]/div/div[1]/ul/li[8]/a] success!
