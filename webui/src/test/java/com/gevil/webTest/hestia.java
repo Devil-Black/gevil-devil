@@ -56,7 +56,13 @@ public class hestia {
     }
     @Test(dataProvider = "updateQuestions")
     public void updateQuestion(String question,String sortIndex) throws Exception {
-        BasePageX basePageX = questionQa("编辑按钮","编辑确定按钮",question,sortIndex,"编辑问题","编辑排序");
+        BasePageX basePageX = new BasePageX(webDriver,"indexPage", "hestia.xml");
+        basePageX.click("编辑按钮");
+        basePageX.clear("编辑问题");
+        basePageX.clear("编辑排序");
+        basePageX.sendKeys("编辑问题",question);
+        basePageX.sendKeys("编辑排序",sortIndex);
+        basePageX.click("编辑确定按钮");
         try {
             //basePageX.waitElement("alert", 3);
             //basePageX.getText("小提示");

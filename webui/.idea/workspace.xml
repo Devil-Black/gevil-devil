@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffe73670-7974-4cec-bd41-ca19b86af7ab" name="Default Changelist" comment="" />
+    <list default="true" id="ffe73670-7974-4cec-bd41-ca19b86af7ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/log/2019-12-18/log_2019-12-18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/log/2019-12-18/log_2019-12-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hestia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hestia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gevil/webTest/hestia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gevil/webTest/hestia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/webui.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hestia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hestia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/webui.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gevil/webTest/hestia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gevil/webTest/hestia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webui.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,7 +54,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TbNwHdXmGg2bVjXomZ5s6pD3KD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -76,24 +93,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.hestia">
-    <configuration name="BaiduTest.MenuDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gevil.webTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gevil.webTest" />
-      <option name="MAIN_CLASS_NAME" value="com.gevil.webTest.BaiduTest" />
-      <option name="METHOD_NAME" value="MenuDemo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="hestia (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webui" />
       <extension name="coverage">
@@ -112,6 +111,23 @@
       </method>
     </configuration>
     <configuration name="hestia (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gevil.webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gevil.webTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gevil.webTest.hestia" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hestia (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webui" />
       <extension name="coverage">
         <pattern>
@@ -166,10 +182,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.hestia" />
+        <item itemvalue="TestNG.hestia (3)" />
         <item itemvalue="TestNG.hestia (2)" />
         <item itemvalue="TestNG.hestia.addQuestion" />
         <item itemvalue="TestNG.hestia (1)" />
-        <item itemvalue="TestNG.BaiduTest.MenuDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -203,10 +219,25 @@
       <workItem from="1576200342395" duration="24934000" />
       <workItem from="1576463054966" duration="6389000" />
       <workItem from="1576489547569" duration="1374000" />
+      <workItem from="1576650959084" duration="237000" />
+      <workItem from="1576658969880" duration="4460000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
